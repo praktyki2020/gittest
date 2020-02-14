@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IntroHeaderComponent } from './components/intro-header/intro-header.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
+
 import { PostCardComponent } from './components/post-card/post-card.component';
 import { FooterComponent } from './components/footer/footer.component';
 
@@ -13,6 +15,7 @@ import { FooterComponent } from './components/footer/footer.component';
     AppComponent,
     IntroHeaderComponent,
     HeaderComponent,
+    ContactFormComponent,
     PostCardComponent,
     FooterComponent,
   ],
