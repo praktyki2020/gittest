@@ -7,12 +7,17 @@ import { IntroHeaderComponent } from './components/intro-header/intro-header.com
 import { HeaderComponent } from './components/header/header.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 
+import { PostCardComponent } from './components/post-card/post-card.component';
+import { FooterComponent } from './components/footer/footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     IntroHeaderComponent,
     HeaderComponent,
     ContactFormComponent,
+    PostCardComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
