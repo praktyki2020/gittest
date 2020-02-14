@@ -10,9 +10,11 @@ import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
+    // test test test
     IntroHeaderComponent,
     PostCardComponent,
     FooterComponent,
+    // komentarz bla bla
   ],
   imports: [
     BrowserModule,
