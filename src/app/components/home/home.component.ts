@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
-import { ActivatedRoute } from '@angular/router';
+
+import { uslugi } from '/Users/dread/Desktop/praktykigit/gittest/src/app/uslugi';
 
 @Component({
     selector: 'app-home',
@@ -7,5 +8,6 @@ import { ActivatedRoute } from '@angular/router';
     styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+    products = uslugi;
     
 }
