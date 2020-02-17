@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 
-import { uslugi } from '/Users/dread/Desktop/praktykigit/gittest/src/app/uslugi';
+
 
 @Component({
     selector: 'app-home',
@@ -8,6 +8,6 @@ import { uslugi } from '/Users/dread/Desktop/praktykigit/gittest/src/app/uslugi'
     styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-    products = uslugi;
+    
     
 }
