@@ -1,1 +1,14 @@
-<p>Posts view</p>
+<h3>Lista postow</h3>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-12 col-sm-6 col-lg-4" *ngFor="let post of listaPostow">
+            <app-post-card [post]="post"></app-post-card>
+        </div>
+
+    </div>
+
+
+</div>

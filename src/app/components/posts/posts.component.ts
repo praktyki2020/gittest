@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { postsData } from './../../data/posts';
 
 @Component({
     selector: 'app-posts',
@@ -7,5 +8,8 @@ import { Component } from "@angular/core";
 })
 export class PostsComponent {
     
+    listaPostow = postsData;
 
+
+    
 }
