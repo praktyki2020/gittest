@@ -9,6 +9,7 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 
 import { PostCardComponent } from './components/post-card/post-card.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FooterComponent } from './components/footer/footer.component';
     IntroHeaderComponent,
     HeaderComponent,
     ContactFormComponent,
+    ContactComponent,
     // raz dwa trzy
     PostCardComponent,
     FooterComponent,
