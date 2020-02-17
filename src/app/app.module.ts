@@ -25,16 +25,12 @@ import { ReactiveFormsModule } from '@angular/forms';
     PostCardComponent,
     FooterComponent,
     ServicesComponent,
+    HomeComponent,
+    PostsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot([
-      { path: '', component: HomeComponent },
-      { path: '', component: ServicesComponent },
-      { path: '', component: PostsComponent },
-      { path: '', component: ContactComponent },
-    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
