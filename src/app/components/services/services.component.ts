@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { uslugi } from './../../data/uslugi';
 
 @Component({
     selector: 'app-services',
@@ -6,5 +7,9 @@ import { Component } from "@angular/core";
     styleUrls: ['./services.component.css']
 })
 export class ServicesComponent {
+    
+    listaPostow = uslugi;
+
+
     
 }
