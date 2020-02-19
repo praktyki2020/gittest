@@ -3,44 +3,140 @@
     <p class="lead text">Witaj na stronie głównej.</p>
     <hr class="my-4">
     <p></p>
-    <a class="btn btn-primary btn-lg button" href="#" role="button">Learn more</a>
   </div>
 
-  <div class="alert alert-success" role="alert">
-    <h4 class="alert-heading text">Well done!</h4>
-    <p class="text" >Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-    <hr>
-    <p class="mb-0 text">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
-  </div>
-
-  <div class="container pagg">
-    <div class="form-group row ">
-      <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-      <div class="col-sm-10">
-        <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+  <div class="row">
+  <div class="card mb-3 col mx-auto" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" class="card-img" alt="...">
       </div>
-    </div>
-    <div class="form-group row">
-      <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-      <div class="col-sm-10">
-        <input type="password" class="form-control" id="inputPassword">
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Nowy Post</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Ostatnia aktualizacja 10 minut temu.</small></p>
+          <a href="#">Kontynuuj czytanie.</a>
+        </div>
       </div>
     </div>
   </div>
-  
 
-  
-
-  <div *ngFor="let product of products">
-  
-    <h3>
-      <a [title]="product.name + ' details'">
-        {{ product.name }}
-      </a>
-    </h3>
-  
-    <p *ngIf="product.description">
-      Description: {{ product.description }}
-    </p>
-  
+  <div class="card mb-3 col mx-auto" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" class="card-img" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Post</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Ostatnia aktualizacja 3 minuty temu.</small></p>
+          <a href="#">Kontynuuj czytanie.</a>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+
+<main role="main" class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h3 class="pb-3 mb-4 font-italic border-bottom">
+        Jakiś nagłówek
+      </h3>
+
+      <div>
+        <h2>Przykładowy post bloga</h2>
+
+        <p>Tekst z bloga</p>
+        <h2>Przykładowy nagłówek</h2>
+        Tu jest sobie jakiś tekst z bloga
+      </div>
+
+      <div>
+        <h2>Jeszcze jeden post bloga</h2>
+
+        <p>Tekst z bloga</p>
+        <p>Dla przedłużenia strony i estetyki</p>
+        <p></p>
+        <p></p>
+      </div>
+
+      <nav>
+        <a class="btn btn-outline-primary" href="#">Stasze</a>
+        <a class="btn btn-outline-secondary disabled" href="#">Nowsze</a>
+      </nav>
+    </div>
+
+    <aside class="col-md-4">
+      <div class="p-3 mb-3 bg-light rounded">
+        <h4 class="font-italic">O nas</h4>
+        <p class="mb-0">Tu po francusku czcioneczka i krótki opis tej strony</p>
+      </div>
+
+      <div class="p-3">
+        <h4 class="font-italic">Archiwum</h4>
+        <ol class="list-unstyled mb-0">
+          <li><a href="#">Styczeń 2019</a></li>
+          <li><a href="#">luty 2019</a></li>
+          <li><a href="#">Marzec 2019</a></li>
+          <li><a href="#">Kwiecień 2019</a></li>
+        </ol>
+      </div>
+
+      <div class="p-3">
+        <h4 class="font-italic">Znajdziesz nas na</h4>
+        <ol class="list-unstyled">
+          <li><a href="https://github.com/praktyki2020">GitHub</a></li>
+          <li><a href="https://twitter.com/home?lang=pl">Twitter</a></li>
+          <li><a href="https://facebook.com">Facebook</a></li>
+        </ol>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<h1 class="display-4 text ">Oferty</h1>
+
+<div class="container">
+  <div class="card-deck mb-3 text-center">
+    <div class="card mb-4 box-shadow">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Free</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ Month</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Jakaś oferta</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Darmowe</button>
+      </div>
+    </div>
+    <div class="card mb-4 box-shadow">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Pro</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ Month</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Jakaś oferta</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-primary">Kup</button>
+      </div>
+    </div>
+    <div class="card mb-4 box-shadow">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Enterprise</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ Month</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Jakaś oferta</li>
+
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-primary">Kup</button>
+      </div>
+    </div>
+  </div>
+</div>

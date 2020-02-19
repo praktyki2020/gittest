@@ -4,16 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IntroHeaderComponent } from './components/intro-header/intro-header.component';
-import { PostCardComponent } from './components/post-card/post-card.component';
+import { KomentarzComponent } from './components/komentarz/komentarz.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ContactComponent } from './components/contact/contact.component';
+import { BlogComponent } from './components/blog/blog.component';
 import { HomeComponent } from './components/home/home.component';
 import { ServicesComponent } from './components/services/services.component';
-import { PostsComponent } from './components/posts/posts.component';
 import { RouterModule } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +22,11 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     HeaderComponent,
     ContactFormComponent,
     ContactComponent,
-    PostCardComponent,
+    KomentarzComponent,
     FooterComponent,
     ServicesComponent,
     HomeComponent,
-    PostsComponent,
+    BlogComponent,
   ],
   imports: [
     BrowserModule,
