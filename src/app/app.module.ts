@@ -14,6 +14,8 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { ContactComponent } from './components/contact/contact.component';
 import { OfertaComponent } from './components/oferta/oferta.component';
+import { HeroBirthdayComponent } from './components/blog/czas.component';
+import { HeroBirthday2Component } from './components/blog/pipe.component';
 
 
 
@@ -30,6 +32,8 @@ import { OfertaComponent } from './components/oferta/oferta.component';
     HomeComponent,
     BlogComponent,
     OfertaComponent,
+    HeroBirthdayComponent,
+    HeroBirthday2Component,
 
     
   ],
